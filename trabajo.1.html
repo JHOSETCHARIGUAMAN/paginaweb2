@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chelsea FC - Historia Completa 1905-2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@300;400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--blue:#034694;--blue2:#001489;--bg:#F8FAFF;--card:#FFFFFF;--line:#DCE6F9;--muted:#6E7FA2;--text:#0A1931}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Space Grotesk',sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+.bebas{font-family:'Bebas Neue',sans-serif}
+header{position:sticky;top:0;z-index:100;background:rgba(255,255,255,0.92);backdrop-filter:blur(16px);border-bottom:1px solid var(--line);padding:14px 28px;display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+.hero{background:linear-gradient(135deg,var(--blue) 0%,var(--blue2) 100%);color:white;padding:70px 28px 60px}
+.hero-inner{max-width:1280px;margin:0 auto;display:grid;grid-template-columns:1.2fr 0.8fr;gap:40px;align-items:end}
+.hero h1{font-size:clamp(50px,8vw,110px);line-height:0.85;letter-spacing:0.01em}
+.hero .sub-hero{font-size:15px;line-height:1.6;opacity:0.9;max-width:560px;margin-top:18px}
+.resumen{max-width:1280px;margin:0 auto;padding:60px 28px;display:grid;grid-template-columns:380px minmax(0,1fr);gap:40px}
+.resumen-box{background:var(--card);border:1px solid var(--line);border-radius:24px;padding:28px;position:sticky;top:90px;height:fit-content}
+.section-title{font-size:clamp(40px,5vw,68px);line-height:0.9;margin-bottom:12px}
+.badge{display:inline-flex;padding:6px 12px;border-radius:999px;background:#EFF5FF;border:1px solid var(--line);font-size:11px;font-weight:700;letter-spacing:0.04em;margin:4px 4px 0 0}
+.timeline{display:grid;gap:28px;min-width:0}
+.era{display:grid;grid-template-columns:110px minmax(0,1fr);gap:18px}
+.era-year{font-family:'Bebas Neue',sans-serif;font-size:22px;color:var(--blue);padding-top:6px}
+.era-card{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:22px 24px;transition:0.2s;min-width:0}
+.era-card:hover{border-color:var(--blue);transform:translateY(-2px)}
+.era-card h3{font-size:22px;line-height:1.1}
+.era-card .small{font-size:11px;font-weight:700;letter-spacing:0.2em;color:var(--muted);margin:4px 0 10px}
+.grid-trophies{max-width:1280px;margin:0 auto;padding:40px 28px;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(260px,100%),1fr));gap:16px}
+.trophy{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:22px;display:flex;justify-content:space-between;align-items:flex-start;min-width:0}
+.trophy .num{font-family:'Bebas Neue',sans-serif;font-size:52px;line-height:0.9;color:var(--blue)}
+.trophy.champ{background:var(--blue);color:white;border-color:var(--blue)}
+.trophy.champ .num{color:white}
+.players{max-width:1280px;margin:0 auto;padding:40px 28px;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(300px,100%),1fr));gap:16px}
+.player{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:20px;display:flex;gap:14px;min-width:0}
+.player .avatar{width:56px;height:56px;border-radius:14px;background:var(--blue);color:white;display:grid;place-items:center;font-family:'Bebas Neue',sans-serif;font-size:20px;flex-shrink:0}
+.player .role{font-size:11px;font-weight:700;letter-spacing:0.15em;color:var(--blue);margin-top:2px}
+.moderna{max-width:1280px;margin:0 auto;padding:40px 28px}
+.moderna-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(200px,100%),1fr));gap:12px;margin-top:16px}
+.moderna-card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px 16px;font-size:13px;overflow-wrap:anywhere}
+.footer{background:var(--blue2);color:white;padding:60px 28px;margin-top:60px}
+@media(max-width:900px){
+.hero-inner,.resumen{grid-template-columns:1fr}
+.resumen-box{position:static}
+.era{grid-template-columns:1fr}
+}
+@media(max-width:480px){
+header{padding:12px 16px}
+.hero{padding:48px 18px}
+.resumen{padding:36px 18px}
+.resumen-box{padding:20px}
+.era-card{padding:18px}
+.grid-trophies,.players,.moderna{padding:28px 18px}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div style="display:flex;gap:10px;align-items:center;font-weight:700"><span style="width:34px;height:34px;background:var(--blue);color:white;display:grid;place-items:center;border-radius:10px" class="bebas">CFC</span> CHELSEA FC • 1905-2026</div>
+  <div style="font-size:11px;font-weight:700;letter-spacing:0.2em">STAMFORD BRIDGE - SW6 1HS</div>
+</header>
+
+<section class="hero">
+  <div class="hero-inner">
+    <div>
+      <div class="bebas" style="font-size:13px;letter-spacing:0.35em;opacity:0.7">120 AÑOS DE HISTORIA BLUE</div>
+      <h1 class="bebas">CHELSEA<br>FOOTBALL<br>CLUB</h1>
+      <div style="display:flex;gap:8px;margin-top:18px;flex-wrap:wrap">
+        <span style="padding:8px 14px;border-radius:999px;background:white;color:var(--blue);font-size:12px;font-weight:700">2 CHAMPIONS LEAGUE</span>
+        <span style="padding:8px 14px;border-radius:999px;background:rgba(255,255,255,0.15);border:1px solid rgba(255,255,255,0.2);font-size:12px;font-weight:700">6 LIGAS INGLESAS</span>
+        <span style="padding:8px 14px;border-radius:999px;background:rgba(255,255,255,0.15);border:1px solid rgba(255,255,255,0.2);font-size:12px;font-weight:700">8 FA CUPS</span>
+      </div>
+    </div>
+    <div class="sub-hero">
+      <strong style="color:#FFD700">KTBFFH - Keep The Blue Flag Flying High.</strong><br><br>
+      El único club de Londres con Champions League. El único del mundo en ganar Champions, Europa League, Recopa, Supercopa, Mundial de Clubes, Premier League y FA Cup. Fundado en un pub, hecho gigante en Múnich y Oporto.
+    </div>
+  </div>
+</section>
+
+<div class="resumen">
+  <div class="resumen-box">
+    <div style="font-size:11px;font-weight:700;letter-spacing:0.25em;color:var(--blue)">RESUMEN HISTÓRICO</div>
+    <h2 class="bebas" style="font-size:40px;line-height:0.9;margin-top:10px">DE PUB A<br>EUROPA</h2>
+    <p style="font-size:14px;color:var(--muted);margin-top:14px;line-height:1.6">
+      <strong style="color:var(--text)">Chelsea FC nace el 10 de marzo de 1905</strong> en The Rising Sun, Fulham Road, cuando Gus Mears no logra alquilar Stamford Bridge al Fulham y decide fundar su propio club.<br><br>
+      50 años sin liga hasta Ted Drake en 1954-55. Los 70s traen la primera FA Cup (1970 vs Leeds) y la Recopa (1971 vs Real Madrid), pero casi quiebra el club por la construcción del East Stand.<br><br>
+      En los 90s llegan Gullit, Vialli y Zola y el Chelsea se vuelve internacional. <strong>En 2003 Roman Abramovich lo compra por aproximadamente £140M</strong> y lo transforma: múltiples títulos y las dos noches eternas: <strong>Múnich 2012 (Drogba)</strong> y <strong>Oporto 2021 (Havertz)</strong>.<br><br>
+      Desde 2022, BlueCo (Boehly + Clearlake) apuesta por juventud: Enzo Fernández, Caicedo y Cole Palmer.
+    </p>
+  </div>
+
+  <div class="timeline">
+    <h2 class="bebas section-title">LÍNEA DEL TIEMPO</h2>
+    <div class="era"><div class="era-year">1905-1950</div><div class="era-card"><h3>Fundación</h3><div class="small">THE RISING SUN PUB</div><p>Se funda el Chelsea FC. Primer partido vs Stockport County. Stamford Bridge desde el día 1.</p><span class="badge">Stamford Bridge desde el día 1</span></div></div>
+    <div class="era"><div class="era-year">1950-1970</div><div class="era-card"><h3>Primer Campeonato</h3><div class="small">TED DRAKE</div><p>Cambia el escudo al león rampante. Gana la First Division 1954-55. Primera liga.</p><span class="badge">First Division 1954-55</span></div></div>
+    <div class="era"><div class="era-year">1970-1990</div><div class="era-card"><h3>Copas y Crisis</h3><div class="small">WEMBLEY AL BORDE DE LA QUIEBRA</div><p>FA Cup 1970 vs Leeds, Recopa 1971 vs Real Madrid. Luego, deudas por el East Stand y descensos en 1975, 1979 y 1988.</p><span class="badge">FA Cup 1970</span><span class="badge">Recopa 1971</span></div></div>
+    <div class="era"><div class="era-year">1990-2003</div><div class="era-card"><h3>Revolución Azul</h3><div class="small">GULLIT, VIALLI, ZOLA</div><p>FA Cup 1997 y 2000, Recopa 1998 vs Stuttgart con gol de Zola y Supercopa 1998 vs Real Madrid.</p><span class="badge">FA Cup 1997, 2000</span><span class="badge">Recopa 1998</span></div></div>
+    <div class="era"><div class="era-year">2003-2022</div><div class="era-card" style="border-color:var(--blue)"><h3>Era Abramovich</h3><div class="small">DE MOURINHO A TUCHEL</div><p>Mourinho gana las Premier League 2004-05 (95 puntos, récord en una temporada de 38 partidos) y 2005-06. Champions 2012 en Múnich: Drogba marca al 88' y anota el penal decisivo. Champions 2021 en Oporto vs Manchester City, gol de Havertz.</p><span class="badge">Premier 2005, 2006, 2010, 2015, 2017</span><span class="badge">Champions 2012, 2021</span></div></div>
+    <div class="era"><div class="era-year">2022-HOY</div><div class="era-card"><h3>Era Boehly</h3><div class="small">BLUECO</div><p>Compra por £4.25 mil millones en mayo de 2022. Grandes inversiones en fichajes: Enzo Fernández, Moisés Caicedo y Cole Palmer. UEFA Conference League 2025.</p><span class="badge">Palmer, Enzo Fernández, Caicedo</span></div></div>
+  </div>
+</div>
+
+<h2 class="bebas section-title" style="max-width:1280px;margin:0 auto;padding:0 28px">TROFEOS - 34 TÍTULOS</h2>
+<div class="grid-trophies">
+  <div class="trophy champ"><div><div class="num">2</div><strong>Champions League</strong><div style="font-size:12px;opacity:0.8;margin-top:4px">2012 vs Bayern (4-3 en penales) - 2021 vs Man City 1-0</div></div></div>
+  <div class="trophy"><div><div class="num">6</div><strong>Premier League / First Division</strong><div style="font-size:12px;color:var(--muted);margin-top:4px">1954-55, 2004-05, 2005-06, 2009-10, 2014-15, 2016-17</div></div></div>
+  <div class="trophy"><div><div class="num">8</div><strong>FA Cup</strong><div style="font-size:12px;color:var(--muted);margin-top:4px">1970, 1997, 2000, 2007, 2009, 2010, 2012, 2018</div></div></div>
+  <div class="trophy"><div><div class="num">5</div><strong>League Cup</strong><div style="font-size:12px;color:var(--muted);margin-top:4px">1965, 1998, 2005, 2007, 2015</div></div></div>
+  <div class="trophy"><div><div class="num">2</div><strong>Europa League</strong><div style="font-size:12px;color:var(--muted);margin-top:4px">2013 vs Benfica, 2019 vs Arsenal (4-1)</div></div></div>
+  <div class="trophy"><div><div class="num">1</div><strong>Mundial de Clubes (formato anterior)</strong><div style="font-size:12px;color:var(--muted);margin-top:4px">2021 vs Palmeiras (2-1)</div></div></div>
+</div>
+
+<h2 class="bebas section-title" style="max-width:1280px;margin:0 auto;padding:0 28px">LEYENDAS HISTÓRICAS</h2>
+<div class="players">
+  <div class="player"><div class="avatar">PO</div><div><strong>Peter Osgood</strong><div class="role">THE KING - 150 GOLES</div><div style="font-size:13px;color:var(--muted)">FA Cup 1970, ídolo de los años 60 y 70</div></div></div>
+  <div class="player"><div class="avatar">GZ</div><div><strong>Gianfranco Zola</strong><div class="role">IL MAGO</div><div style="font-size:13px;color:var(--muted)">Magia pura, famoso gol de tacón ante Norwich</div></div></div>
+  <div class="player"><div class="avatar">JT</div><div><strong>John Terry</strong><div class="role">CAPTAIN - 717 PARTIDOS</div><div style="font-size:13px;color:var(--muted)">5 Premier League, capitán legendario</div></div></div>
+  <div class="player"><div class="avatar">FL</div><div><strong>Frank Lampard</strong><div class="role">211 GOLES - MÁXIMO GOLEADOR</div><div style="font-size:13px;color:var(--muted)">Mediocampista goleador</div></div></div>
+  <div class="player"><div class="avatar">DD</div><div><strong>Didier Drogba</strong><div class="role">GOLES DECISIVOS EN FINALES</div><div style="font-size:13px;color:var(--muted)">Múnich 2012, leyenda</div></div></div>
+  <div class="player"><div class="avatar">PC</div><div><strong>Petr Čech</strong><div class="role">PORTERO LEGENDARIO</div><div style="font-size:13px;color:var(--muted)">Paradas decisivas en Múnich 2012</div></div></div>
+</div>
+
+<div class="moderna">
+  <h2 class="bebas section-title">PLANTILLA MODERNA 2024-2026</h2>
+  <div class="moderna-grid">
+    <div class="moderna-card"><strong>Cole Palmer</strong> - 10 - Figura de la temporada 2023-24</div>
+    <div class="moderna-card"><strong>Enzo Fernández</strong> - 8 - Campeón del mundo en 2022</div>
+    <div class="moderna-card"><strong>Moisés Caicedo</strong> - 25 - Fichaje récord del club</div>
+    <div class="moderna-card"><strong>Reece James</strong> - Capitán - Canterano</div>
+    <div class="moderna-card"><strong>Levi Colwill</strong> - Central zurdo</div>
+    <div class="moderna-card"><strong>Marc Cucurella</strong> - Campeón de la Eurocopa 2024</div>
+  </div>
+</div>
+
+<footer class="footer">
+  <div style="max-width:1280px;margin:0 auto;text-align:center">
+    <div class="bebas" style="font-size:48px;line-height:0.9">STAMFORD BRIDGE - SW6</div>
+    <p style="margin-top:16px;opacity:0.6">#KTBFFH #CHELSEA #1905 • CÓDIGO LIMPIO VS CODE</p>
+  </div>
+</footer>
+
+</body>
+</html>
